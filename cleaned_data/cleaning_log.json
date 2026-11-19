@@ -1,0 +1,30 @@
+{
+  "source_file": "weatherAUS.csv",
+  "raw_sha256_before": "573fd715cd69fcacc4df32024d823b450ae3edaae7e8ff2eeb623adbed424014",
+  "raw_sha256_after": "573fd715cd69fcacc4df32024d823b450ae3edaae7e8ff2eeb623adbed424014",
+  "raw_unchanged": true,
+  "raw_rows": 145460,
+  "raw_columns": 23,
+  "rows_invalid_or_missing_date": 0,
+  "rows_invalid_or_missing_target": 3267,
+  "duplicate_rows_removed_after_required_field_filter": 0,
+  "cleaned_rows": 142193,
+  "cleaned_columns": 23,
+  "cleaning_policy": [
+    "Trim leading/trailing whitespace in text fields and normalize blank tokens to missing.",
+    "Parse Date; remove rows with an invalid or missing date.",
+    "Normalize RainTomorrow Yes/No to a binary interpretation; remove missing or unsupported target labels.",
+    "Remove exact duplicate rows after required-field filtering.",
+    "Sort by date and location; retain missing feature values for train-only model imputation.",
+    "Do not clip or remove statistical outliers; inspect and report them separately in EDA."
+  ],
+  "cleaned_date_min": "2007-11-01",
+  "cleaned_date_max": "2017-06-25",
+  "remaining_missing_cells": 316559,
+  "target_counts": {
+    "No": 110316,
+    "Yes": 31877
+  },
+  "output_file": "weatherAUS_clean.csv",
+  "output_sha256": "54386baf33e71fd22d8acb1e78eff567da98684ba0b2262c7b5dcafb3d52fe8c"
+}

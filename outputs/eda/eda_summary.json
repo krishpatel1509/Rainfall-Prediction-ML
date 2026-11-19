@@ -1,0 +1,133 @@
+{
+  "rows": 142193,
+  "columns": 23,
+  "date_min": "2007-11-01",
+  "date_max": "2017-06-25",
+  "target_counts": {
+    "No": 110316,
+    "Yes": 31877
+  },
+  "rain_tomorrow_rate": 0.22418121848473554,
+  "numeric_predictors": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustSpeed",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm"
+  ],
+  "categorical_predictors": [
+    "Location",
+    "WindGustDir",
+    "WindDir9am",
+    "WindDir3pm",
+    "RainToday"
+  ],
+  "top_missing_fields": [
+    {
+      "field": "Sunshine",
+      "missing_pct": 47.692924405561456
+    },
+    {
+      "field": "Evaporation",
+      "missing_pct": 42.78902618272348
+    },
+    {
+      "field": "Cloud3pm",
+      "missing_pct": 40.15246882757942
+    },
+    {
+      "field": "Cloud9am",
+      "missing_pct": 37.73533155640573
+    },
+    {
+      "field": "Pressure9am",
+      "missing_pct": 9.85561877166949
+    }
+  ],
+  "highest_tukey_outlier_rates": [
+    {
+      "feature": "Rainfall",
+      "outlier_pct": 17.919268114243504
+    },
+    {
+      "feature": "Evaporation",
+      "outlier_pct": 2.4019668100799016
+    },
+    {
+      "feature": "WindGustSpeed",
+      "outlier_pct": 2.261459642048404
+    },
+    {
+      "feature": "WindSpeed3pm",
+      "outlier_pct": 1.7612117824924944
+    },
+    {
+      "feature": "WindSpeed9am",
+      "outlier_pct": 1.2346906173453087
+    }
+  ],
+  "top_absolute_pearson_correlations": [
+    {
+      "feature_1": "MaxTemp",
+      "feature_2": "Temp3pm",
+      "pearson_r": 0.9845620097168964
+    },
+    {
+      "feature_1": "Pressure9am",
+      "feature_2": "Pressure3pm",
+      "pearson_r": 0.9613476612505127
+    },
+    {
+      "feature_1": "MinTemp",
+      "feature_2": "Temp9am",
+      "pearson_r": 0.9018125915105862
+    },
+    {
+      "feature_1": "MaxTemp",
+      "feature_2": "Temp9am",
+      "pearson_r": 0.8870202884016076
+    },
+    {
+      "feature_1": "Temp9am",
+      "feature_2": "Temp3pm",
+      "pearson_r": 0.8605743134381447
+    }
+  ],
+  "monthly_rain_rate_min": 0.19332868972989706,
+  "monthly_rain_rate_min_month": 1,
+  "monthly_rain_rate_max": 0.2692079123864505,
+  "monthly_rain_rate_max_month": 7,
+  "rain_tomorrow_rate_by_rain_today": {
+    "No": 0.1518677057037281,
+    "Yes": 0.46405976792242887
+  },
+  "all_numeric_missing_pct": {
+    "MinTemp": 0.44798267143952236,
+    "MaxTemp": 0.22645277896942886,
+    "Rainfall": 0.9887969168665124,
+    "Evaporation": 42.78902618272348,
+    "Sunshine": 47.692924405561456,
+    "WindGustSpeed": 6.519308264119894,
+    "WindSpeed9am": 0.948007285872019,
+    "WindSpeed3pm": 1.8495987847503041,
+    "Humidity9am": 1.247600092831574,
+    "Humidity3pm": 2.5388028946572616,
+    "Pressure9am": 9.85561877166949,
+    "Pressure3pm": 9.832410878172624,
+    "Cloud9am": 37.73533155640573,
+    "Cloud3pm": 40.15246882757942,
+    "Temp9am": 0.635755627914173,
+    "Temp3pm": 1.9171126567411898
+  }
+}

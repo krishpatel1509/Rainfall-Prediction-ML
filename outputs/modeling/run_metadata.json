@@ -1,0 +1,53 @@
+{
+  "dataset_file": "weatherAUS_clean.csv",
+  "rows_after_cleaning": 142193,
+  "features_before_encoding": 21,
+  "numeric_features": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustSpeed",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm"
+  ],
+  "categorical_features": [
+    "Location",
+    "WindGustDir",
+    "WindDir9am",
+    "WindDir3pm",
+    "RainToday"
+  ],
+  "training_rows": 109302,
+  "test_rows": 32891,
+  "training_start": "2007-11-01",
+  "training_end": "2015-08-07",
+  "test_start": "2015-08-08",
+  "test_end": "2017-06-25",
+  "cutoff_date": "2015-08-07",
+  "selection_metric": "five-fold date-grouped expanding chronological CV average precision, training era only",
+  "cv_strategy": "Five expanding-window folds partitioned by whole calendar dates on an evenly spaced training-era subset",
+  "cv_rows": 8000,
+  "cv_positive_prevalence": 0.229625,
+  "holdout_positive_prevalence": 0.21923930558511448,
+  "seed": 42,
+  "selected_model": "CatBoost",
+  "selected_model_reason": "Highest mean average precision across five date-grouped chronological CV folds within the training period; holdout was not used for model selection.",
+  "software": {
+    "python": "3.12.3",
+    "pandas": "3.1.0",
+    "scikit_learn": "1.9.1"
+  },
+  "cv_rows_limit": 8000,
+  "knn_fit_rows_limit": 20000,
+  "selected_model_final_fit_rows": 109302
+}

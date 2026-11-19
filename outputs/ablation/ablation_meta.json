@@ -1,0 +1,13 @@
+{
+  "cutoff": "2015-08-07",
+  "train_rows": 109302,
+  "test_rows": 32891,
+  "seed": 42,
+  "catboost_params": {
+    "iterations": 220,
+    "depth": 5,
+    "learning_rate": 0.07,
+    "l2_leaf_reg": 7
+  },
+  "note": "*Sunshine, Evaporation, Cloud9am, Cloud3pm"
+}

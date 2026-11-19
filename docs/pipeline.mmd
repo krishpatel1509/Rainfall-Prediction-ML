@@ -1,0 +1,10 @@
+flowchart TD
+    A[Immutable raw_data/weatherAUS.csv] --> B[src/clean_data.py]
+    B --> C[cleaned_data/weatherAUS_clean.csv]
+    C --> D[src/eda.py: EDA figures and findings]
+    C --> E[Sort by date, chronological split]
+    E --> F[Five expanding CV folds, grouped by date]
+    F --> G[Five hyperparameter configurations per model]
+    G --> H[Refit best configuration on all training-era rows]
+    H --> I[Later-period holdout evaluation]
+    I --> J[Comparison table, ROC, confusion matrix, report]
