@@ -58,5 +58,5 @@ Results depend on the input snapshot, package versions, and compute settings; co
 
 ## Paper and presentation
 
-The paper (three authors, nine pages, two-column IEEE-style) is in `paper/` as Markdown (`manuscript.md`), editable Word, and PDF, with the Markdown figures in `paper/media/`. It documents cleaning, EDA, the seven-model benchmark, tuning experiments, model comparison, selected-model evaluation, limitations, and an appendix listing all 35 tested configurations. The eight-slide editable PowerPoint is at the project root. See `docs/SUBMISSION_CHECKLIST.md` for citation, email, and reproducibility checks before submission.
+The paper (four authors, nine pages, two-column IEEE-style) is in `paper/` as Markdown (`manuscript.md`), editable Word, and PDF, with the Markdown figures in `paper/media/`. It documents cleaning, EDA, the seven-model benchmark, tuning experiments, model comparison, selected-model evaluation, limitations, and an appendix listing all 35 tested configurations. The eight-slide editable PowerPoint is at the project root. See `docs/SUBMISSION_CHECKLIST.md` for citation, email, and reproducibility checks before submission.
 "# Rainfall-Prediction-ML" 
