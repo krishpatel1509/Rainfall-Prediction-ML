@@ -54,7 +54,7 @@ The model script compares KNN, CatBoost, Random Forest, Decision Tree, Linear SV
 - `outputs/modeling/best_model.joblib` — fitted CatBoost pipeline for the selected configuration.
 - `outputs/eda/EDA_findings.md` — concise findings; the full manuscript integrates the results and plots.
 
-Results depend on the input snapshot, package versions, and compute settings; consult the recorded run metadata. This project is an empirical course study, not an operational forecast service. The dataset package did not include explicit redistribution terms, so confirm permission before public hosting. The manuscript follows the attached two-column IEEE-style reference and lists Krish Patel, Dharak Patel, and Het Viradiya with the supplied Karnavati University affiliation; only the email line remains blank.
+Results depend on the input snapshot, package versions, and compute settings; consult the recorded run metadata. This project is an empirical course study, not an operational forecast service. The dataset package did not include explicit redistribution terms, so confirm permission before public hosting. The manuscript follows the attached two-column IEEE-style reference and lists Krish Patel, Dharak Patel, Het Viradiya and Nisharg Trivedi with the supplied Karnavati University affiliation; only the email line remains blank.
 
 ## Paper and presentation
 
